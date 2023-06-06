@@ -1,0 +1,96 @@
+@media (max-width: 375px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .contenedor-baner-header {
+        padding: 35px 10px;
+        font-size: 24px;
+    }
+
+    .contenedor-videos {
+        @include flex (row, wrap, center, center, 10px);
+
+        .card iframe {
+            min-height: 250px;
+            min-width: 100%;
+        }
+    }
+
+    .info-container {
+        .info-crossfit {
+            padding: 5% 10%;
+            font-size: 14px;
+            line-height: 1.1;
+        }
+
+        & h2 {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
+    .contenedor-baner-main {
+        font-size: 25px;
+        color: antiquewhite;
+        padding-inline: 30px;
+        min-height: 500px;
+        margin-bottom: 20px;
+    }
+
+    .dic-container {
+        @include flex (row, wrap, flex-start, flex-start, 15px);
+        padding: 20px 20px 10px 0;
+
+        .dic-content {
+            h2 {
+                text-align: center;
+                padding: 10px;
+            }
+        }
+    }
+
+    .movimientos {
+        padding-inline: 5px;
+        margin-bottom: 20px;
+        iframe {
+            min-height: 250px;
+            min-width: 100%;
+        }
+    }
+
+    .contenedor-baner-footer {
+        min-height: 120px;
+        padding: 20px 10px;
+        font-size: 24px;
+    }
+
+    .titulo-form {
+        text-align: center;
+        padding: 10px;
+        margin-top: 25px auto 0 auto;
+    }
+
+    form {
+        @include flex (column, nowrap, center,center,10px); 
+        min-height: 400px;
+
+        input,
+        textarea {
+            min-width: 80%;
+        }
+    }
+
+    .mapa-container {
+        margin: 20px auto;
+        padding: 20px 5px;
+        @include flex(column, nowrap, center, center, 0);
+    }
+
+    footer ul {
+        @include flex(row, wrap, center,center,0);
+        font-size: 24px;
+        font-weight: bold;
+        column-gap: 25px;
+    }
+}

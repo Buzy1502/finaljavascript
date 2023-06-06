@@ -1,0 +1,37 @@
+[
+    {
+        "hora": "7:00",
+        "turnosDispo": 10,
+        "direccion": "Av. Mosconi 3234",
+        "modalidad": "Presencial",
+        "id": 1
+    },
+    {
+        "hora": "8:00",
+        "turnosDispo": 20,
+        "direccion": "Av. Mosconi 3234",
+        "modalidad": "Presencial",
+        "id": 2
+    },
+    {
+        "hora": "9:00",
+        "turnosDispo": 0,
+        "direccion": "Av. Mosconi 3234",
+        "modalidad": "Presencial",
+        "id": 3
+    },
+    {
+        "hora": "10:00",
+        "turnosDispo": 5,
+        "direccion": "Av. Mosconi 3234",
+        "modalidad": "Presencial",
+        "id": 4
+    },
+    {
+        "hora": "11:00",
+        "turnosDispo": 1,
+        "direccion": "Av. Mosconi 3234",
+        "modalidad": "Presencial",
+        "id": 5
+    }
+]

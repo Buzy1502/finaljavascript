@@ -1,0 +1,27 @@
+.contenedor-baner-footer {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0, 0, 0.9)),url("../images/footerimg.jpg");
+    object-fit: cover;
+    min-height: 150px;
+    text-align: center;
+    color: rgb(113, 99, 9);
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+footer {
+    background-color: $bg-primary;
+    min-height: 50px;
+    padding-top: 10px;
+}
+
+footer ul {
+    @include flex(row, wrap, space-around,center,0);
+    list-style: none;
+    font-size: x-large;
+    font-weight: bold;
+    transition: all .5s ease-in;
+    
+    li.footer__icono a.footer__link i:is(:hover, :focus-visible) {
+        color: #fff;
+    }
+}
